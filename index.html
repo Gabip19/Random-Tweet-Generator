@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9c96def04.js" crossorigin="anonymous"></script>
+    <script src="txtChanger.js"></script>
+    <title> Random Baica Tweet Generator</title>
+</head>
+<body>
+    <h1 class="title"> Random Baica Tweet Generator </h1>
+    <div id="tweet-box" >
+        
+        <div id="img-box">
+            <img class="img" src="img/baica.jpg" alt="profile-pic">
+        </div>
+        
+        <div id="post-box">
+            
+            <div id="head-box">
+                <div id="head-box-first">
+                    <p class="name"> Vlad Baicanescu </p>
+                    <p class="info"> @VBaicanescu </p>
+                    <p class="info">·</p>
+                    <p class="info"> 6h </p>
+                </div>
+                <p class="fa-solid fa-ellipsis"></p>
+            </div>
+        <div id="text-box">
+            Apasa pe Tweet below <i class="fa-solid fa-arrow-down"></i> ca sa grindset. ✌💪
+        </div>
+
+            <div id="footer-box">
+                <div>
+                    <p class="fa-regular fa-comment icon"></p> 372
+                </div>
+                <div>
+                    <p class="fa-solid fa-retweet icon"></p> 5.3K
+                </div>
+                <div>
+                    <p class="fa-regular fa-heart icon"></p> 10.3K
+                </div>
+                <p class="fa-solid fa-arrow-up-from-bracket icon"></p>
+                <p></p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="button-tweet" onclick="changeTxt()">
+        <i class="fa-brands fa-twitter"></i>
+        Tweet!
+    </div>
+</body>
+</html>

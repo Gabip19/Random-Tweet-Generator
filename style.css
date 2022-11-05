@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 3rem;
+    color:rgba(0, 195, 255, 0.681);
+    margin-top: 100px;
+}
+
+#tweet-box {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    padding: 20px;
+    margin: 5% auto 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px rgb(212, 212, 212) solid;
+    max-width: 700px;
+    min-width: 500px;
+}
+
+#img-box {
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+p {
+    margin: 3px;
+    padding: 3px;
+}
+
+#post-box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#head-box {
+    padding: 0;
+    margin: 0 0 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#head-box-first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#text-box {
+    text-align: left;
+    margin-left: 6px;
+    line-height: 1.5rem;
+}
+
+#footer-box {
+    margin-top: 10px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.info {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(133, 133, 133);
+}
+
+.icon {
+    color: rgb(103, 103, 103);
+}
+
+.icon:hover {
+    color: rgb(0, 195, 255);
+}
+
+.button-tweet {
+    background-color: #1DA1F2;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin: 100px auto 0 auto;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.button-tweet:hover {
+    background-color: #3591ca;
+    cursor: pointer;
+}
